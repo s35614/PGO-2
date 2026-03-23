@@ -33,4 +33,7 @@ public class Ksiazka {
     public String getTytul() {
         return tytul;
     }
+    public boolean isDostepna(){
+        return dostepna;
+    }
 }
