@@ -29,4 +29,8 @@ public class Ksiazka {
         dostepna = true;
         System.out.println("Ksiazka zwrocona");
     }
+
+    public String getTytul() {
+        return tytul;
+    }
 }
